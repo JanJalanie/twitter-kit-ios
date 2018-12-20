@@ -21,6 +21,8 @@ config.status
 *.gcda
 *.gcno
 
+.history/
+
 !**/Carthage/Build
 Artifacts
 DemoApp/Config.xcconfig
