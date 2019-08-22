@@ -3,5 +3,6 @@
 	"3.1.0": "https://ton.twimg.com/syndication/twittercore/ios/3.1.0/Dynamic/TwitterCore.framework.zip",
 	"3.2.0": "https://ton.twimg.com/syndication/twittercore/ios/3.2.0/Dynamic/TwitterCore.framework.zip",
 	"3.4.3": "https://github.com/JanJalanie/twitter-kit-ios/releases/download/3.4.3/TwitterCore.zip",
-	"3.4.4": "https://github.com/JanJalanie/twitter-kit-ios/releases/download/3.4.4/TwitterCore.zip"
+	"3.4.4": "https://github.com/JanJalanie/twitter-kit-ios/releases/download/3.4.4/TwitterCore.zip",
+	"3.4.5": "https://github.com/JanJalanie/twitter-kit-ios/releases/download/3.4.5/TwitterCore.zip"
 }
