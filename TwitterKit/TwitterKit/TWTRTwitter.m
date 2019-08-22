@@ -329,13 +329,12 @@ static TWTRTwitter *sharedTwitter;
             if (session) {
                 completion(session, error);
             } else {
-                if (error.domain == TWTRLogInErrorDomain && error.code == TWTRLogInErrorCodeCancelled) {
-                    // The user tapped "Cancel"
-                    completion(session, error);
-                } else {
+                if (error.domain == TWTRLogInErrorDomain && error.code == TWTRLoginErrorNoTwitterApp) {
                     typeof(weakViewController) strongViewController = weakViewController;
                     // There wasn't a Twitter app
                     [self performWebBasedLogin:strongViewController completion:completion];
+                } else {
+                    completion(session, error);
                 }
             }
         }];
